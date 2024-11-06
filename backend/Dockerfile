@@ -6,4 +6,4 @@ WORKDIR /opt/server
 COPY package.json .
 COPY *.js .
 RUN npm install
-CMD ["node", "indecx.js"]
+CMD ["node", "index.js"]
